@@ -1,0 +1,24 @@
+/** disables annoying profile customization **/
+@import url("https://ukriu.github.io/cssCord/Other/blandProfile.css");
+
+/** compact channels **/
+@import url("compact-channels.css");
+
+/** unrounded corner **/
+@import url("unround-corners.css");
+
+/** move collapse icon to before text **/
+.containerDefault__29444 {
+  > div {
+    padding-left: 0.5em;
+
+    > div {
+      display: flex !important;
+      place-content: start !important;
+      flex-direction: row-reverse !important;
+    }
+  }
+}
+
+/** compact member list **/
+@import url("compact-members.css");
