@@ -4,6 +4,12 @@
 /** compact channels **/
 @import url("compact-channels.css");
 
+/** compact member list **/
+@import url("compact-members.css");
+
+/** better pickers **/ 
+@import url("better-pickers.css");
+
 /** move collapse icon to before text **/
 .containerDefault__29444 {
   > div {
@@ -17,5 +23,13 @@
   }
 }
 
-/** compact member list **/
-@import url("compact-members.css");
+/** larger user profile **/
+div[aria-label="User Profile Modal"] {
+  transform: scale(1.20);
+  > div[class^="root_"] {
+    max-height: 60rem;
+    > div {
+      height: 100%;
+    }
+  }
+}
