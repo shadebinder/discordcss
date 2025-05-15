@@ -33,3 +33,17 @@ div[aria-label="User Profile Modal"] {
     }
   }
 }
+
+/** hide not needed text bar buttons (gift, gif, sticker, app launcher) **/
+button[aria-label="Send a gift"],
+button[aria-label="Open GIF picker"], 
+button[aria-label="Open sticker picker"], 
+button.channelAppLauncher_e6e74f {
+	display: none !important;
+}
+.expression-picker-chat-input-button:has(button[aria-label="Open GIF picker"]),
+.expression-picker-chat-input-button:has(button[aria-label="Send a gift"]), 
+.expression-picker-chat-input-button:has(button[aria-label="Open sticker picker"]) 
+{
+display:none !important;
+}
