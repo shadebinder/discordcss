@@ -4,9 +4,6 @@
 /** compact channels **/
 @import url("compact-channels.css");
 
-/** unrounded corner **/
-@import url("unround-corners.css");
-
 /** move collapse icon to before text **/
 .containerDefault__29444 {
   > div {
